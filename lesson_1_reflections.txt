@@ -1,0 +1,27 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: It shows lines where changes occurs, therefore you don't need to look all lines; just those lines which diff exposes it to you.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: I don't know yet. Probably because it is more clear what mistakes or differences are between all previous files. You can see how your programming is "evolving".
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A: With manually commiting you have control when logical part of the work is done. With automatically commiting you don't have that control and it can commit changes in the middle of the non-logical part of teh work.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Because while programming affects all project as one unit (which is separeted into smaller pieces - files), so git allow saving multiple files in one commit. All files are interdependent so they need to be saved at once; they are part of one project.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: By typing them in the command line. First "git log" to see all the commits, second "git diff" to see the differences between two commits. **But it is not practical scrolling with mouse through the all commits, I cannot even copy desired commit id to use it for "git diff" command. Would it be easier if there was grafical view?
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: By testing previous commits you can see where bug wasn't present.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: For my project.
