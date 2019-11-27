@@ -1,0 +1,32 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: When I intend to share my work with public.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: So I can have more control. Actually I don't know. I didn't have experiences which would determine why not allow Git to automatically stay updated.
+
+Q: Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+A:  1. Forks: are clones made on GitHub from other's repositories to your new made repository (on GitHub).
+    2. Clones: are clones of some repository (local or remote) to new location mostly locally.
+    3. Branches: are branches emerging from master branch which are in the same repository.
+
+    Forks and clones are used to copy other repository so you can make changes indenpendently from original source not interferring into that source.
+    Branches are used to make changes beside master branch for experimental purposes, removing bugs, adding new features and similar processes and than incorporate them into master branch or if not wanted remove that branches with no impact on master branch.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: Benefit is in being up-to-date for new changes or improvements being added. And also it is easier to commit your changes to remote repository if your local copy is more updated.
+
+Q: How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+A:  It would be harder collaborate without Git or GitHub.
+    1. With Git and GitHub it is easier to see changes made in the project and also merging those changes into one piece.
+    2. I don't know what would be harder. Maybe to learn all this commands and concepts at beginning.
+
+Q: When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+A: In case you don't want to mess your master branch (either original work or forked (cloned) from other user).
+    If working directly with master branch it is easier to merging files, but it is messier.
+    If working with separate branch, it is complicated to merging all changes into master branch, but you can keep master branch "cleaner".
